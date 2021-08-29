@@ -1,0 +1,178 @@
+body{
+    background-color: rgb(48, 42, 42);
+}
+.piano{
+    width: 1000px;
+    height: 490px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    top: 100px;
+}
+.tetline{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    border: 8px solid black;
+    position: relative;
+    left: 90px;
+    top: 40px;
+}
+
+.firstline, .secondline, .thirdline, .fourthline, .fifthline, .sixthline, .seventhline, .eightthline {
+    width: 96px;
+    height: 400px;
+    background-color: white;
+    border: 4px solid black;
+    cursor: pointer;
+}
+
+.firstline{
+    position: relative;
+    left: 95px;
+    top: -370px;
+}
+.firstline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.secondline{
+    position: relative;
+    left: 190px;
+    top: -778px;
+}
+.secondline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.thirdline{
+    position: relative;
+    left: 290px;
+    top: -1186px;
+}
+.thirdline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.fourthline{
+    position: relative;
+    left: 390px;
+    top: -1595px;
+}
+.fourthline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.fifthline{
+    position: relative;
+    left: 490px;
+    top: -2003px;
+}
+.fifthline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.sixthline{
+    position: relative;
+    left: 590px;
+    top: -2412px;
+}
+.sixthline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.seventhline{
+    position: relative;
+    left: 690px;
+    top: -2820px;
+}
+.seventhline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.eightthline{
+    position: relative;
+    left: 794px;
+    top: -3227px;
+    text-align: center;
+}
+.eightthline span{
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.firstblackline{
+    width: 90px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: relative;
+    bottom: 3640px;
+    left: 150px;
+    cursor: pointer;
+}
+.secondblackline{
+    width: 80px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: relative;
+    bottom: 3940px;
+    left: 260px;
+    cursor: pointer;
+}
+.thirdblackline{
+    width: 80px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: relative;
+    bottom: 4240px;
+    left: 450px;
+    cursor: pointer;
+}.fourthblackline{
+    width: 80px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: absolute;
+    top: 40px;
+    left: 560px;
+    cursor: pointer;
+}.fifthblackline{
+    width: 90px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: relative;
+    bottom: 4540px;
+    left: 660px;
+    cursor: pointer;
+}.sixthblackline{
+    width: 70px;
+    height: 300px;
+    background-color: rgb(24, 22, 22);
+    position: relative;
+    bottom: 4840px;
+    left: 825px;
+    cursor: pointer;
+}
